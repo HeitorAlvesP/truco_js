@@ -4,7 +4,7 @@ function play_game(){
 
     const token = "aiqimfa9nym8";
     let global_deck_id;
-    const cartasSelecionadas = ['JS', 'JD', 'JC', 'JH', 'QS', 'QD', 'QC', 'QH', 'KS', 'KD', 'KC', 'KH', 'AS', 'AD', 'AC', 'AH', '2S', '2D', '2C', '2H', '3S', '3D', '3C', '3H', '4S', '4D', '4C', '4H', '5S', '5D', '5C', '5H', '6S', '6D', '6C', '6H', '7S', '7D', '7C', '7H'];
+    const cartasSelecionadas = ['4C', '7H', 'AS', '7D', '3C', '3H', '3S', '3D', '2S', '2D', '2C', '2H', 'AD', 'AC', 'AH', 'KS', 'KD', 'KC', 'KH', 'QS', 'QD', 'QC', 'QH', 'JS', 'JD', 'JC', 'JH', '7S', '7C', '6S', '6D', '6C', '6H', '5C', '5H', '5S', '5D', '4H', '4S', '4D'];
     let cartasUsadas = new Set();
 
     // Função para gerar um novo baralho
